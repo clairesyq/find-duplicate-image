@@ -15,3 +15,6 @@ Step 2: run flask in development mode
 
 Step 3: run main module
  * python process.py (python3: python3 process.py)
+
+Step 4: kill all running thread
+ * ps -ef|grep flask|grep -v grep|cut -c 7-15|xargs kill -9
