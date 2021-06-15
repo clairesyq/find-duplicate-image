@@ -1,9 +1,9 @@
 # find-duplicate-image
 
 Description for each module
- * find.py: the main function detect wish finds duplicated image for onr url
+ * find.py: the main function detect wish finds duplicated image for one url
  * app.py: use flask HTTP request to enable Microservices for find.py
- * process.py: test for app.py and enable multi-threading
+ * process.py: test for app.py and enable multi-threading of url list
 
 Step 1: enable flask server
  * pip install Flask (python3: pip3 install Flask)
